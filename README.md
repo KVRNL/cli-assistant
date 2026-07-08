@@ -8,9 +8,9 @@
 
 # CLI Assistant
 
-**Free desktop companion for Claude Code - by [KVRNL](https://kvrnl.io).**
+**Free desktop companion for your AI coding CLIs (Claude Code, Codex, and more) - by [KVRNL](https://kvrnl.io).**
 
-Stay plugged into your Claude Code sessions without living in the terminal: live
+Stay plugged into your AI coding CLI sessions without living in the terminal: live
 session monitoring, desktop notifications you can reply to inline, and an AI chat
 dock with persistent memory. Runs quietly in the tray and updates itself silently.
 
