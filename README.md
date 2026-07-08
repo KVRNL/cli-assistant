@@ -6,7 +6,7 @@
 ##  ##   ##    ##  ## ##   ## ######
 ```
 
-# Claude Assist
+# CLI Assistant
 
 **Free desktop companion for Claude Code - by [KVRNL](https://kvrnl.io).**
 
@@ -15,7 +15,7 @@ session monitoring, desktop notifications you can reply to inline, and an AI cha
 dock with persistent memory. Runs quietly in the tray and updates itself silently.
 
 ### Download
-Get it free at **[kvrnl.io/products/claude-assist](https://kvrnl.io/products/claude-assist/)** - create a free account, claim your license key, and install. Windows.
+Get it free at **[kvrnl.io/products/cli-assistant](https://kvrnl.io/products/cli-assistant/)** - create a free account, claim your license key, and install. Windows.
 
 ### License
 Proprietary freeware - **free to use, not open source.** See [LICENSE](./LICENSE).
