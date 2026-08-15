@@ -1,5 +1,6 @@
-# This repository publishes release installers only — application source is not tracked here.
 *
 !.gitignore
 !README.md
 !LICENSE
+!.github/
+!.github/**
