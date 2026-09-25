@@ -72,6 +72,21 @@ none of your files. Full policy: **[kvrnl.io/privacy](https://kvrnl.io/privacy/)
 
 ## What's new
 
+**v2.5.16** — 2026-09-25
+  - Clicking the tray icon now opens a mini control center: your status at a glance, your live sessions, anything waiting on you, quick switches for the floating widget, sounds and Autopilot, plus New Session, Control Panel, Settings and Exit. Left-click and right-click both open it; double-click still opens the full window.
+  - You can pin the control center anywhere on your screen. Drag it by its top bar and let go, or click the pin icon. A pinned panel stays on top and keeps its spot through restarts and updates until you unpin it.
+  - Fixed the header getting stuck on "Updating to..." after an update that didn't finish.
+
+**v2.5.15** — 2026-09-05
+  - Short questions from Claude now trigger a popup. Quick confirmations like "Should I proceed?" or "Go ahead?" were being ignored because they were under a 30-character minimum, so you could be left waiting at the terminal without knowing Claude had asked something.
+  - Fixed one session's popup being killed by another. With two Claude sessions open, a question from one could close the other's popup mid-display, and that session would move on as if you'd never answered.
+  - Fixed popups failing to appear when the message started with a dash — for example a bulleted list of options, or a message beginning with a negative number.
+  - The native crash log now follows your chosen data folder like everything else, so it's included when you send diagnostics.
+
+**v2.5.14** — 2026-08-18
+  - Downloads and automatic updates now come straight from KVRNL's own servers instead of a third-party host. Updates are quicker and more reliable, and nothing inside the app itself has changed.
+  - If you installed this app before today, please download it once more from kvrnl.io. Older copies still look for updates at the old location and can't carry themselves across the move — this one time has to be done by hand.
+
 **v2.5.11** — 2026-08-05
   - Fixed CLI Assistant being flagged by Windows Defender and other antivirus software. Nothing was ever wrong with the app — a few of the ways it did ordinary things just happened to look like the way malware behaves, and this release changes all of them.
   - Voice notifications no longer write a temporary script file to your system and run it through PowerShell — the biggest cause of the false alarms. Speech now runs entirely in memory.
@@ -81,18 +96,6 @@ none of your files. Full policy: **[kvrnl.io/privacy](https://kvrnl.io/privacy/)
 **v2.5.10** — 2026-07-08
   - New: a per-CLI Desktop Popups picker in Settings — connect Claude Code, Codex, and Copilot individually so the CLIs you use can raise desktop popups through CLI Assistant.
   - Fixed the Settings provider/model dropdowns — scrolling the page no longer accidentally changes the selection.
-
-**v2.5.9** — 2026-07-08
-  - Fixed the Assistant becoming slow/unresponsive when set to Codex — it no longer hangs on Codex’s folder-trust prompt (it now runs Codex read-only from a trusted working directory).
-  - Renamed the built-in “Neural Link” chat to simply “Assistant.”
-
-**v2.5.8** — 2026-07-08
-  - Assistant now works with more than just Claude — in Settings → Assistant you can pick which AI CLI powers it (Claude Code, Codex, or GitHub Copilot) and choose the model.
-  - Broadened the app throughout to reflect that CLI Assistant is for your AI coding CLIs, not just one of them.
-  - The sidebar now reads “Powered by KVRNL.”
-
-**v2.5.7** — 2026-07-08
-  - New name: Claude Assist is now CLI Assistant. Same app, same features — the name just reflects what it really is: a companion for your AI coding CLIs (Claude Code, Codex, Gemini and more), not just one of them.
 
 Full history → **[kvrnl.io/changelog/cli-assistant](https://kvrnl.io/changelog/cli-assistant/)**
 
