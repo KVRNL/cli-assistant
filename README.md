@@ -71,6 +71,12 @@ none of your files. Full policy: **[kvrnl.io/privacy](https://kvrnl.io/privacy/)
 
 ## What's new
 
+**v2.5.17** — 2026-09-25
+  - Redesigned the activation window. It now walks you through getting your free key step by step (create a free KVRNL account, get CLI Assistant, paste your key), with a button for each step.
+  - Your key fills itself in: copy it on kvrnl.io and it's already waiting when you switch back, or use the new Paste button. Activating no longer freezes the window, and every error tells you exactly what to do next.
+  - Popups, the Claude Code connection and the floating widget now follow your license too, so everything switches on together once CLI Assistant is activated.
+  - A momentary problem on our license server can no longer be mistaken for an invalid key.
+
 **v2.5.16** — 2026-09-25
   - Clicking the tray icon now opens a mini control center: your status at a glance, your live sessions, anything waiting on you, quick switches for the floating widget, sounds and Autopilot, plus New Session, Control Panel, Settings and Exit. Left-click and right-click both open it; double-click still opens the full window.
   - You can pin the control center anywhere on your screen. Drag it by its top bar and let go, or click the pin icon. A pinned panel stays on top and keeps its spot through restarts and updates until you unpin it.
@@ -91,10 +97,6 @@ none of your files. Full policy: **[kvrnl.io/privacy](https://kvrnl.io/privacy/)
   - Voice notifications no longer write a temporary script file to your system and run it through PowerShell — the biggest cause of the false alarms. Speech now runs entirely in memory.
   - The app's own updater and the one-click installers for Git, Obsidian, Claude Desktop and Node.js now download into CLI Assistant's own folder instead of your Windows temp folder, and no longer launch hidden.
   - CLI Assistant.exe now carries proper Windows file details (publisher, product name and version), which it was previously missing.
-
-**v2.5.10** — 2026-07-08
-  - New: a per-CLI Desktop Popups picker in Settings — connect Claude Code, Codex, and Copilot individually so the CLIs you use can raise desktop popups through CLI Assistant.
-  - Fixed the Settings provider/model dropdowns — scrolling the page no longer accidentally changes the selection.
 
 Full history → **[kvrnl.io/changelog/cli-assistant](https://kvrnl.io/changelog/cli-assistant/)**
 
