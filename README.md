@@ -71,6 +71,9 @@ none of your files. Full policy: **[kvrnl.io/privacy](https://kvrnl.io/privacy/)
 
 ## What's new
 
+**v2.5.18** — 2026-09-26
+  - New Share Usage Stats switch in Settings > General. CLI Assistant can now tell KVRNL which features you use, plus basic PC details like your Windows version, screen and graphics card, to help us improve the app. It never includes your prompts, messages, files or project names. It's on by default, and when you switch it off nothing more is sent.
+
 **v2.5.17** — 2026-09-25
   - Redesigned the activation window. It now walks you through getting your free key step by step (create a free KVRNL account, get CLI Assistant, paste your key), with a button for each step.
   - Your key fills itself in: copy it on kvrnl.io and it's already waiting when you switch back, or use the new Paste button. Activating no longer freezes the window, and every error tells you exactly what to do next.
@@ -91,12 +94,6 @@ none of your files. Full policy: **[kvrnl.io/privacy](https://kvrnl.io/privacy/)
 **v2.5.14** — 2026-08-18
   - Downloads and automatic updates now come straight from KVRNL's own servers instead of a third-party host. Updates are quicker and more reliable, and nothing inside the app itself has changed.
   - If you installed this app before today, please download it once more from kvrnl.io. Older copies still look for updates at the old location and can't carry themselves across the move — this one time has to be done by hand.
-
-**v2.5.11** — 2026-08-05
-  - Fixed CLI Assistant being flagged by Windows Defender and other antivirus software. Nothing was ever wrong with the app — a few of the ways it did ordinary things just happened to look like the way malware behaves, and this release changes all of them.
-  - Voice notifications no longer write a temporary script file to your system and run it through PowerShell — the biggest cause of the false alarms. Speech now runs entirely in memory.
-  - The app's own updater and the one-click installers for Git, Obsidian, Claude Desktop and Node.js now download into CLI Assistant's own folder instead of your Windows temp folder, and no longer launch hidden.
-  - CLI Assistant.exe now carries proper Windows file details (publisher, product name and version), which it was previously missing.
 
 Full history → **[kvrnl.io/changelog/cli-assistant](https://kvrnl.io/changelog/cli-assistant/)**
 
